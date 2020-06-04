@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "55,168,101",
+                        "endColumns": "44,41,65",
+                        "endOffsets": "97,207,164"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,146",
+                        "endColumns": "46,43,67",
+                        "endOffsets": "97,141,209"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -20,23 +37,6 @@
                         "endLines": "6,9,13",
                         "endColumns": "8,8,8",
                         "endOffsets": "309,447,674"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,4,3",
-                        "startColumns": "2,2,2",
-                        "startOffsets": "55,168,101",
-                        "endColumns": "44,41,65",
-                        "endOffsets": "97,207,164"
-                    },
-                    "to": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,102,146",
-                        "endColumns": "46,43,67",
-                        "endOffsets": "97,141,209"
                     }
                 }
             ]

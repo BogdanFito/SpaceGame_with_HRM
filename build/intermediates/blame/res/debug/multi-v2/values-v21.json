@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

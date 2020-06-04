@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpaceGame.iml" filepath="$PROJECT_DIR$/SpaceGame.iml" group="SpaceGame" />
+      <module fileurl="file://$PROJECT_DIR$/SpaceGame_with_HRM.iml" filepath="$PROJECT_DIR$/SpaceGame_with_HRM.iml" group="SpaceGame_with_HRM" />
     </modules>
   </component>
 </project>

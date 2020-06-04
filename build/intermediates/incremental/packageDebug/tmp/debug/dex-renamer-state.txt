@@ -1,7 +1,7 @@
-#Sun May 24 13:59:40 MSK 2020
-base.0=C\:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Jun 04 23:12:07 MSK 2020
+base.0=C\:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\asus\\Desktop\\SpaceGame\\SpaceGame\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=C\:\\Users\\asus\\Desktop\\Temp\\SpaceGame_with_HRM\\build\\intermediates\\transforms\\dexMerger\\debug\\1
