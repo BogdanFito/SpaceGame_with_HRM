@@ -18,7 +18,8 @@ public final class R {
     public static final int layout=0x7f020001;
     public static final int preview=0x7f020002;
     public static final int text=0x7f020003;
-    public static final int top=0x7f020004;
+    public static final int textView=0x7f020004;
+    public static final int top=0x7f020005;
   }
   public static final class layout {
     public static final int main=0x7f030000;

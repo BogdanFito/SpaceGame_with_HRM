@@ -2,10 +2,15 @@ package com.BogdanComany.SpaceGame;
 
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.stream.DoubleStream;
 
 
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 
 import android.content.Context;
@@ -17,6 +22,7 @@ import android.hardware.Camera;
 
 import android.hardware.Camera.PreviewCallback;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import android.os.PowerManager;
@@ -118,6 +124,9 @@ public class HeartRateMonitor extends Activity {
     private static boolean transiction = false;
 
     private static int beats_amount = 0;
+    private static double stress_index = 0;
+    private static ArrayList<Double> time_delay = new ArrayList<>();
+    private static long start;
 
 
 
@@ -132,7 +141,8 @@ public class HeartRateMonitor extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
 
-        Log.d("hello", "create");
+       // Log.d("hello", "create");
+        start = System.currentTimeMillis();
 
         super.onCreate(savedInstanceState);
 
@@ -162,6 +172,7 @@ public class HeartRateMonitor extends Activity {
             public void run() {
                 while (!transiction) {
                 }
+
                 if (beats_amount < 70) {
                     UnityPlayer.UnitySendMessage("Enemy", "maxspeed", "");
                     Log.d("pulse", beats_amount + " max speed");
@@ -178,6 +189,26 @@ public class HeartRateMonitor extends Activity {
 
                     transiction = false;
                 }
+                double sum =0;
+                for (double d : time_delay) {
+                    sum+=d; //Log.d("intervals", d + "");
+                }
+                double MO = sum/time_delay.size();
+                //Log.d("MO", MO + "");
+
+                final double threshold = 0.1;
+                int count = 0;
+                for (double d : time_delay) {
+                    if (Math.abs(d -  MO) < threshold) count++;
+                }
+                double AMO = (double) count/time_delay.size()*100; //Log.d("AMO", AMO + "");
+                double VR = Collections.max(time_delay) - Collections.min(time_delay); //Log.d("VR", VR + "");
+
+                stress_index = AMO / (2*VR * MO); //Рассчет индекса стресса
+                Log.d("stress", stress_index + "");
+                time_delay.clear();
+
+                if (stress_index>150) finishAffinity(); //Закрываем приложение, если человек взволнован
 
                 finish();
             }
@@ -273,9 +304,11 @@ public class HeartRateMonitor extends Activity {
 
          */
 
+        @TargetApi(Build.VERSION_CODES.N)
         @Override
 
         public void onPreviewFrame(byte[] data, Camera cam) {
+
 
             if (data == null) throw new NullPointerException();
 
@@ -329,6 +362,7 @@ public class HeartRateMonitor extends Activity {
 
             int rollingAverage = (averageArrayCnt > 0) ? (averageArrayAvg / averageArrayCnt) : 0;
 
+
             TYPE newType = currentType;
 
             if (imgAvg < rollingAverage) {
@@ -338,6 +372,8 @@ public class HeartRateMonitor extends Activity {
                 if (newType != currentType) {
 
                     beats++;
+                    time_delay.add((double)(System.currentTimeMillis() - start)/1000);
+                    start = System.currentTimeMillis();
 
                     // Log.d(TAG, "BEAT!! beats="+beats);
 
@@ -426,7 +462,9 @@ public class HeartRateMonitor extends Activity {
                 }
 
                 int beatsAvg = (beatsArrayAvg / beatsArrayCnt);
+
                 beats_amount = beatsAvg;
+
 
 
                 text.setText(String.valueOf(beatsAvg));

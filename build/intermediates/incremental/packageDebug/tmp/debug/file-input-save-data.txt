@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jun 04 23:12:08 MSK 2020
+#Tue Mar 30 14:02:58 MSK 2021
 2.path=bin/Data/Managed/UnityEngine.UI.dll
 14.set=ASSET
 107.baseType=DIRECTORY
