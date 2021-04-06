@@ -1,12 +1,10 @@
-package com.BogdanComany.SpaceGame;
+package com.Comany.SpaceGame;
 
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.stream.DoubleStream;
 
 
 import android.annotation.SuppressLint;
@@ -15,7 +13,6 @@ import android.app.Activity;
 
 import android.content.Context;
 
-import android.content.Intent;
 import android.content.res.Configuration;
 
 import android.hardware.Camera;
@@ -38,7 +35,6 @@ import android.view.SurfaceView;
 import android.view.View;
 
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.unity3d.player.UnityPlayer;
 
@@ -411,7 +407,7 @@ public class HeartRateMonitor extends Activity {
 
             double totalTimeInSecs = (endTime - startTime) / 1000d;
 
-            if (totalTimeInSecs >= 10) {
+            if (totalTimeInSecs >= 60) {
 
                 double bps = (beats / totalTimeInSecs);
 

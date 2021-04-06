@@ -1,4 +1,4 @@
-package com.BogdanComany.SpaceGame;
+package com.Comany.SpaceGame;
 
 
 

@@ -8,7 +8,7 @@ INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidMani
 INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:1-34:12
 INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:70-106
+		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:70-100
 		INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml
 	android:versionName
@@ -16,7 +16,7 @@ INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidMani
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:107-153
+		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:101-147
 	android:versionCode
 		INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:1-34:12
@@ -24,7 +24,7 @@ INJECTED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidMani
 	xmlns:android
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:154-194
+		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:2:148-188
 supports-screens
 ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:3:3-163
 	android:largeScreens
@@ -49,7 +49,7 @@ ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifes
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:4:16-57
 	android:isGame
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:4:123-144
-activity#com.BogdanComany.SpaceGame.UnityPlayerActivity
+activity#com.Comany.SpaceGame.UnityPlayerActivity
 ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:5:5-12:16
 	android:screenOrientation
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:5:48-92
@@ -62,7 +62,7 @@ ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifes
 	android:configChanges
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:5:125-306
 	android:name
-		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:5:343-404
+		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:5:343-398
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
 ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:6:7-10:23
 action#android.intent.action.MAIN
@@ -83,12 +83,12 @@ ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifes
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:11:59-79
 	android:name
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:11:18-58
-activity#com.BogdanComany.SpaceGame.HeartRateMonitor
+activity#com.Comany.SpaceGame.HeartRateMonitor
 ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:13:5-16:16
 	android:label
 		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:15:9-41
 	android:name
-		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:14:9-61
 meta-data#unity.build-id
 ADDED from C:\Users\asus\Desktop\Temp\SpaceGame_with_HRM\src\main\AndroidManifest.xml:17:5-101
 	android:value

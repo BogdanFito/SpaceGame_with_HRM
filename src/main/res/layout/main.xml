@@ -43,7 +43,8 @@
 
             android:layout_height="fill_parent">
 
-            <com.BogdanComany.SpaceGame.HeartbeatView android:id="@+id/image"
+            <com.Comany.SpaceGame.HeartbeatView
+                android:id="@+id/image"
 
                 android:layout_centerInParent="true"
 
@@ -51,7 +52,7 @@
 
                 android:layout_height="wrap_content">
 
-            </com.BogdanComany.SpaceGame.HeartbeatView>
+            </com.Comany.SpaceGame.HeartbeatView>
 
         </RelativeLayout>
 
